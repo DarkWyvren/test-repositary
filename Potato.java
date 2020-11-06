@@ -14,7 +14,7 @@ public class Potato{
 
             code = 0;
         }catch(Exception e){
-            Log.log(LogLevel.error, null, e);
+            System.out.println(e.getMessage());
 
             code = 1;
         }
